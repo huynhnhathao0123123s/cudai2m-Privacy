@@ -3,24 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Comprehensive Privacy Policy for Haocudai2m Android Assistant">
-  <title>Haocudai2m — Official Privacy Policy</title>
+  <title>Haocudai2m — Privacy Policy</title>
   <style>
     :root {
       --bg: #0f172a;
-      --card-bg: #1e293b;
-      --card-border: #334155;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
+      --card: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
       --accent: #38bdf8;
-      --accent-glow: rgba(56, 189, 248, 0.15);
-      --badge-bg: #0284c7;
-      --note-bg: rgba(56, 189, 248, 0.08);
-      --warning-bg: rgba(245, 158, 11, 0.08);
-      --warning-border: #f59e0b;
-      --table-header: #0f172a;
-      --table-alt: #1a2333;
+      --accent-soft: rgba(56, 189, 248, 0.1);
+      --callout-bg: #132338;
+      --callout-border: #0284c7;
     }
     * {
       box-sizing: border-box;
@@ -29,204 +23,142 @@
     }
     body {
       background: var(--bg);
-      color: var(--text-main);
+      color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-size: 15px;
-      line-height: 1.75;
-      padding: 40px 16px;
+      line-height: 1.7;
+      padding: 32px 16px;
     }
-    .wrapper {
-      max-width: 920px;
+    .container {
+      max-width: 820px;
       margin: 0 auto;
     }
     header {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 36px 40px;
-      margin-bottom: 24px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
     }
     .badge {
       display: inline-block;
-      padding: 4px 12px;
+      padding: 3px 10px;
       border-radius: 9999px;
-      background: var(--badge-bg);
-      color: #ffffff;
+      background: var(--accent-soft);
+      color: var(--accent);
       font-size: 12px;
       font-weight: 600;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      margin-bottom: 14px;
-    }
-    h1 {
-      font-size: 32px;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      color: #ffffff;
       margin-bottom: 10px;
     }
-    .meta {
-      color: var(--text-muted);
-      font-size: 14px;
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .meta span {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-    main {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 44px 40px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-    }
-    h2 {
-      font-size: 20px;
+    h1 {
+      font-size: 28px;
       font-weight: 700;
       color: #ffffff;
-      margin-top: 36px;
-      margin-bottom: 14px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--card-border);
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    main {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 36px 32px;
+    }
+    h2 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
     }
     h2:first-of-type {
       margin-top: 0;
     }
     h3 {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       color: var(--accent);
-      margin-top: 22px;
-      margin-bottom: 8px;
-    }
-    p {
-      color: var(--text-muted);
-      margin-bottom: 14px;
-    }
-    strong {
-      color: var(--text-main);
-    }
-    ul, ol {
-      color: var(--text-muted);
-      margin-left: 22px;
-      margin-bottom: 16px;
-    }
-    li {
+      margin-top: 18px;
       margin-bottom: 6px;
     }
+    p {
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    strong {
+      color: var(--text);
+    }
+    ul {
+      color: var(--muted);
+      margin-left: 20px;
+      margin-bottom: 14px;
+    }
+    li {
+      margin-bottom: 5px;
+    }
     .callout {
-      padding: 16px 20px;
-      border-radius: 10px;
-      margin: 20px 0;
+      background: var(--callout-bg);
+      border-left: 4px solid var(--callout-border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 18px 0;
       font-size: 14px;
-      line-height: 1.6;
-    }
-    .callout-info {
-      background: var(--note-bg);
-      border-left: 4px solid var(--accent);
-      color: #e0f2fe;
-    }
-    .callout-warning {
-      background: var(--warning-bg);
-      border-left: 4px solid var(--warning-border);
-      color: #fef3c7;
+      color: #e2e8f0;
     }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 20px 0;
+      margin: 16px 0;
       font-size: 13.5px;
-      border-radius: 8px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
       overflow: hidden;
-      border: 1px solid var(--card-border);
     }
     th, td {
-      padding: 12px 14px;
+      padding: 10px 14px;
       text-align: left;
-      border-bottom: 1px solid var(--card-border);
-      vertical-align: top;
+      border-bottom: 1px solid var(--border);
     }
     th {
-      background: var(--table-header);
+      background: #0f172a;
       color: #ffffff;
       font-weight: 600;
     }
     tr:nth-child(even) td {
-      background: var(--table-alt);
+      background: #172033;
     }
     tr:last-child td {
       border-bottom: none;
     }
-    code {
-      background: #0f172a;
-      color: #38bdf8;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 13px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    }
-    .toc {
-      background: #0f172a;
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 20px 24px;
-      margin-bottom: 32px;
-    }
-    .toc-title {
-      font-size: 14px;
-      font-weight: 700;
-      color: #ffffff;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 10px;
-    }
-    .toc-list {
-      list-style: none;
-      margin: 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 6px 16px;
-    }
-    .toc-list li a {
+    a {
       color: var(--accent);
       text-decoration: none;
-      font-size: 13.5px;
-      transition: color 0.2s;
     }
-    .toc-list li a:hover {
-      color: #7dd3fc;
+    a:hover {
       text-decoration: underline;
     }
     footer {
       text-align: center;
-      color: var(--text-dim);
+      color: var(--muted);
       font-size: 13px;
-      margin-top: 32px;
+      margin-top: 24px;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 600px) {
       body {
         padding: 16px 8px;
       }
       header, main {
-        padding: 24px 20px;
-        border-radius: 12px;
+        padding: 20px 18px;
       }
       h1 {
-        font-size: 24px;
+        font-size: 22px;
       }
       h2 {
-        font-size: 18px;
-      }
-      .toc-list {
-        grid-template-columns: 1fr;
+        font-size: 17px;
       }
       table {
         display: block;
@@ -236,231 +168,119 @@
   </style>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="container">
     <header>
-      <div class="badge">Official Legal Document</div>
-      <h1>Haocudai2m Privacy Policy</h1>
+      <div class="badge">Privacy Policy</div>
+      <h1>Haocudai2m Assistant</h1>
       <div class="meta">
-        <span><strong>Application:</strong> Haocudai2m Assistant</span>
-        <span><strong>Package ID:</strong> <code>com.haocudai2m.assistant</code></span>
-        <span><strong>Effective Date:</strong> October 17, 2026</span>
-        <span><strong>Status:</strong> Active & In Production</span>
+        Last updated: October 2026 &bull; Status: Active
       </div>
     </header>
 
     <main>
-      <div class="callout callout-info">
-        <strong>Executive Summary:</strong> Haocudai2m is an Android educational assistant created to analyze study materials and quiz questions using AI. We respect your privacy: <strong>we do not sell user data, do not profile you for behavioral advertising, and do not retain your screen captures or personal prompts on persistent remote servers</strong>. All interactions adhere strictly to Google Play Developer Policies and the Google API Services User Data Policy.
+      <div class="callout">
+        <strong>Summary:</strong> Haocudai2m is an educational assistant designed to solve study questions with AI. We do not sell your personal information, do not run ads, and do not save your screen captures on remote servers.
       </div>
 
-      <nav class="toc">
-        <div class="toc-title">Table of Contents</div>
-        <ul class="toc-list">
-          <li><a href="#sec-1">1. Application Overview & Scope</a></li>
-          <li><a href="#sec-2">2. Core Privacy Principles</a></li>
-          <li><a href="#sec-3">3. Categories of Data Collected</a></li>
-          <li><a href="#sec-4">4. Android OS Permissions</a></li>
-          <li><a href="#sec-5">5. Artificial Intelligence Processing</a></li>
-          <li><a href="#sec-6">6. Google API User Data Policy</a></li>
-          <li><a href="#sec-7">7. Data Storage & Lifespan</a></li>
-          <li><a href="#sec-8">8. Security & Encryption Standards</a></li>
-          <li><a href="#sec-9">9. User Rights & Account Control</a></li>
-          <li><a href="#sec-10">10. Children's Privacy (COPPA)</a></li>
-          <li><a href="#sec-11">11. Changes to This Policy</a></li>
-          <li><a href="#sec-12">12. Developer Contact Information</a></li>
-        </ul>
-      </nav>
+      <h2>1. What Haocudai2m Does</h2>
+      <p>
+        Haocudai2m is an Android study tool. It helps students understand and solve quiz questions by analyzing screenshots with Google Gemini AI models and returning clear explanations.
+      </p>
 
-      <section id="sec-1">
-        <h2>1. Application Overview & Scope</h2>
-        <p>
-          This Privacy Policy governs the collection, use, transmission, and protection of information by the Android mobile application <strong>Haocudai2m</strong> (package identifier: <code>com.haocudai2m.assistant</code>), developed and maintained by the Haocudai2m Development Team ("we", "us", or "our").
-        </p>
-        <p>
-          By installing, launching, or authenticating into Haocudai2m, you acknowledge that you have read, understood, and agreed to the practices detailed in this document. If you do not agree with this Privacy Policy, please discontinue use of the application and uninstall it from your device.
-        </p>
-      </section>
+      <h2>2. Data We Access and Why</h2>
 
-      <section id="sec-2">
-        <h2>2. Core Privacy Principles</h2>
-        <p>Our engineering architecture is built around three foundational pillars of data integrity:</p>
-        <ul>
-          <li><strong>Data Minimization:</strong> We request only the minimal data and Android system permissions required to provide the core service (authenticating user identity and providing real-time question analysis).</li>
-          <li><strong>Zero Data Monetization:</strong> We do not sell, rent, monetize, or trade your personal information, email addresses, or screen captures to data brokers, advertising networks, or third-party marketing firms.</li>
-          <li><strong>Ephemeral Processing:</strong> Screen capture data processed during real-time study assistance is transient. It is streamed over secure channels directly for OCR and language model inference, and is instantly discarded from server RAM after generating the answer.</li>
-        </ul>
-      </section>
+      <h3>Google Account Details</h3>
+      <p>When you sign in with Google, we receive basic public profile information:</p>
+      <ul>
+        <li><strong>Google User ID:</strong> To keep your session active.</li>
+        <li><strong>Email address:</strong> To identify your account and manage requests.</li>
+        <li><strong>Display name and profile picture:</strong> To show your profile in the app header.</li>
+      </ul>
+      <p>We do not access or store your Google password.</p>
 
-      <section id="sec-3">
-        <h2>3. Categories of Data Collected & Processed</h2>
+      <h3>Screen Captures</h3>
+      <p>
+        The app includes a floating assistant button. When you tap this button, the app captures the question on your screen and sends the image securely to Google Gemini AI to generate an answer.
+      </p>
+      <ul>
+        <li>The app captures your screen <strong>only when you tap the button</strong>.</li>
+        <li>It never records your screen in the background.</li>
+        <li>Screen captures are processed in memory and are deleted immediately after the answer is delivered. We do not store your screenshots.</li>
+      </ul>
 
-        <h3>3.1. Google Account & Profile Credentials</h3>
-        <p>
-          When you initiate sign-in via the <strong>Android Credential Manager</strong> and Google Identity Services, the application requests the following non-sensitive OAuth 2.0 scopes (<code>openid</code>, <code>email</code>, <code>profile</code>):
-        </p>
-        <ul>
-          <li><strong>Unique Google Subject ID (User ID):</strong> A cryptographic identifier used to establish and maintain your authenticated session.</li>
-          <li><strong>Primary Email Address:</strong> Used strictly for account identification, quota management, and customer support.</li>
-          <li><strong>Display Name:</strong> Rendered within the application header to personalize your user interface.</li>
-          <li><strong>Profile Picture URL:</strong> Used solely to render your avatar or initials in the user profile card.</li>
-        </ul>
-        <p>
-          <em>Note:</em> Haocudai2m never accesses, requests, or stores your Google account password. All authentication handshakes are executed natively by Google Play Services.
-        </p>
+      <h3>Local App Settings</h3>
+      <p>
+        Your chosen AI mode and session login status are saved locally on your phone so you do not have to sign in every time you open the app.
+      </p>
 
-        <h3>3.2. Visual Data & Screen Captures</h3>
-        <p>
-          Haocudai2m offers a floating assistant feature that assists users in reading questions displayed on their screen. This functionality is governed by strict user consent:
-        </p>
-        <ul>
-          <li>The application only captures visual content when the user <strong>explicitly taps the floating assistant capture button</strong> after approving the Android system <code>MediaProjection</code> dialogue.</li>
-          <li>Screen captures are processed strictly within the active user session and are transmitted via encrypted HTTPS directly to the Gemini inference backend.</li>
-          <li><strong>No Passive Background Recording:</strong> The application does not record your screen continuously, does not capture audio, and never takes automated captures without an explicit user touch event.</li>
-        </ul>
+      <h2>3. Android Permissions</h2>
+      <p>Haocudai2m uses the following permissions solely to deliver its core features:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>Internet</code></td>
+            <td>To send questions securely to Google Gemini AI and receive explanations.</td>
+          </tr>
+          <tr>
+            <td><code>Display over other apps</code></td>
+            <td>To display the floating assistant button while you read questions in study apps or browsers.</td>
+          </tr>
+          <tr>
+            <td><code>Screen Capture (MediaProjection)</code></td>
+            <td>To capture the specific question area when you tap the floating assistant.</td>
+          </tr>
+          <tr>
+            <td><code>Foreground Service & Notification</code></td>
+            <td>To keep the floating assistant ready while you study and show an active notification so you can stop it at any time.</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <h3>3.3. Local Device Preferences & Session State</h3>
-        <p>
-          The application saves local operational data on your device's private sandboxed storage (<code>haocudai2m_prefs</code>), including:
-        </p>
-        <ul>
-          <li>Authentication tokens and active login session status.</li>
-          <li>User interface customization settings (chosen AI reasoning model, auto-solve preferences, and overlay positioning).</li>
-        </ul>
-      </section>
+      <h2>4. Artificial Intelligence & Third-Party Processing</h2>
+      <p>
+        Question text and images are processed using the Google Gemini API. Data sent through this API is governed by Google Cloud privacy standards. Google does not use data submitted through enterprise APIs to train public AI models. We do not include any third-party advertising SDKs or tracking tools.
+      </p>
 
-      <section id="sec-4">
-        <h2>4. Android OS Permissions & Justification</h2>
-        <p>
-          In accordance with Google Play Developer Program Policies, every Android permission declared in <code>AndroidManifest.xml</code> serves a concrete, user-facing function:
-        </p>
-        <table>
-          <thead>
-            <tr>
-              <th>Permission</th>
-              <th>Protection Level</th>
-              <th>Technical Purpose & Justification</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><code>INTERNET</code></td>
-              <td>Normal</td>
-              <td>Enables outbound encrypted network communication with Google Play Services and Google Gemini API endpoints.</td>
-            </tr>
-            <tr>
-              <td><code>GET_ACCOUNTS</code></td>
-              <td>Normal</td>
-              <td>Supports legacy Credential Manager and Google Play Services account picker resolution on compatible Android versions.</td>
-            </tr>
-            <tr>
-              <td><code>SYSTEM_ALERT_WINDOW</code></td>
-              <td>Special (Settings)</td>
-              <td>Allows the floating assistant widget to hover above study applications and browser windows so users can trigger assistance without switching apps.</td>
-            </tr>
-            <tr>
-              <td><code>FOREGROUND_SERVICE</code></td>
-              <td>Normal</td>
-              <td>Maintains the floating widget lifecycle and prevents the Android OS from prematurely killing the assistant while the user is actively studying.</td>
-            </tr>
-            <tr>
-              <td><code>FOREGROUND_SERVICE_MEDIA_PROJECTION</code></td>
-              <td>Dangerous (Consent)</td>
-              <td>Required by Android 14+ (API 34) to capture screen content designated by the user for real-time educational OCR analysis.</td>
-            </tr>
-            <tr>
-              <td><code>POST_NOTIFICATIONS</code></td>
-              <td>Runtime</td>
-              <td>Displays the ongoing foreground service notification required by Android OS while the floating assistant is active, allowing instant termination.</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+      <h2>5. Google API Limited Use Statement</h2>
+      <p>
+        Haocudai2m's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.
+      </p>
 
-      <section id="sec-5">
-        <h2>5. Artificial Intelligence Processing & Third-Party Services</h2>
-        <p>
-          Haocudai2m utilizes <strong>Google Gemini API</strong> (powered by Google Cloud Platform) to process extracted question text, optical screen frames, and study prompts:
-        </p>
-        <ul>
-          <li><strong>Inference Only:</strong> Data sent to Google Gemini is evaluated solely to return educational explanations, step-by-step reasoning, and quiz solutions.</li>
-          <li><strong>No Model Training:</strong> Under Google API terms for paid/enterprise and developer console services, your private customer data and user prompts are not used to train or fine-tune public foundation models.</li>
-          <li><strong>Third-Party Conformance:</strong> We do not integrate third-party advertising SDKs (e.g., AdMob, Unity Ads, Facebook Audience Network) or user tracking analytics SDKs (e.g., Adjust, AppsFlyer) into the application binary.</li>
-        </ul>
-      </section>
+      <h2>6. Data Storage and Deletion</h2>
+      <ul>
+        <li><strong>Images:</strong> Discarded immediately after analysis. Zero remote storage.</li>
+        <li><strong>Account data:</strong> Stored only on your device. Tapping <strong>Đăng xuất (Log out)</strong> in the app or clearing app data in Android Settings deletes all local login credentials immediately.</li>
+        <li><strong>Revoking access:</strong> You can disconnect Haocudai2m from your Google Account at any time by visiting <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Permissions</a>.</li>
+      </ul>
 
-      <section id="sec-6">
-        <h2>6. Google API Services User Data Policy Compliance</h2>
-        <div class="callout callout-warning">
-          <strong>Limited Use Disclosure:</strong> Haocudai2m's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" style="color: #f59e0b; font-weight: 600;">Google API Services User Data Policy</a>, including the Limited Use requirements.
-        </div>
-        <p>Specifically:</p>
-        <ul>
-          <li>We only use Google user data to provide or improve user-facing features that are prominent in the application's user interface.</li>
-          <li>We do not transfer user data to third parties unless necessary to provide or improve these features, to comply with applicable laws, or as part of a merger/acquisition with explicit notice.</li>
-          <li>We never use or transfer Google user data for serving advertisements, including retargeting, personalized, or interest-based advertising.</li>
-          <li>We do not allow humans to read user data unless we have obtained your affirmative agreement, it is necessary for security investigations, or it is required to comply with law.</li>
-        </ul>
-      </section>
+      <h2>7. Security</h2>
+      <p>
+        All communication between the app and Google services uses encrypted HTTPS (TLS). Local data is kept in private app storage protected by Android's sandbox security.
+      </p>
 
-      <section id="sec-7">
-        <h2>7. Data Retention & Erasure Policy</h2>
-        <ul>
-          <li><strong>Remote Retention:</strong> None. Screen frames, OCR fragments, and generated answers are held in volatile memory only for the duration of the HTTP request cycle and are purged immediately.</li>
-          <li><strong>Local Retention:</strong> Authentication state and user preferences remain stored in sandboxed app storage until you explicitly sign out or clear app storage.</li>
-          <li><strong>Data Erasure:</strong> You can delete all local data at any moment by clicking the in-app <strong>Logout / Đăng xuất</strong> button or navigating to <em>Android Settings &gt; Apps &gt; Haocudai2m &gt; Storage &gt; Clear Data</em>.</li>
-        </ul>
-      </section>
+      <h2>8. Children's Privacy</h2>
+      <p>
+        Haocudai2m is intended for students and general audiences. We do not knowingly collect personal information from children under 13.
+      </p>
 
-      <section id="sec-8">
-        <h2>8. Security Safeguards & Encryption Standards</h2>
-        <p>We deploy robust industry-standard safeguards to protect user information:</p>
-        <ul>
-          <li><strong>Encryption in Transit:</strong> All data exchanged between Haocudai2m and Google servers is enforced over TLS 1.3 / HTTPS encryption, preventing eavesdropping and man-in-the-middle attacks.</li>
-          <li><strong>Sandboxed OS Storage:</strong> Credentials and user preferences are written with mode <code>Context.MODE_PRIVATE</code>, making them strictly inaccessible to other applications installed on the device.</li>
-          <li><strong>Keystore Integrity:</strong> Cryptographic signatures verified via official Google Play App Signing guarantee that the APK binary has not been tampered with or modified.</li>
-        </ul>
-      </section>
-
-      <section id="sec-9">
-        <h2>9. User Rights & Account Control</h2>
-        <p>Regardless of your geographic location, you retain full sovereignty over your data:</p>
-        <ul>
-          <li><strong>Right to Revoke Access:</strong> You can permanently disconnect Haocudai2m from your Google Account at any time by visiting your Google Security Dashboard at <a href="https://myaccount.google.com/permissions" target="_blank" style="color: var(--accent);">myaccount.google.com/permissions</a> and selecting <em>Remove Access</em>.</li>
-          <li><strong>Right to Rectification & Deletion:</strong> You can purge all cached user information from your device immediately using the built-in logout feature.</li>
-          <li><strong>GDPR (European Union) & CCPA/CPRA (California) Compliance:</strong> We honor data subject rights including access, deletion, and portability. Since we do not maintain persistent remote databases of personal records, clearing your local app state completely removes your footprint.</li>
-        </ul>
-      </section>
-
-      <section id="sec-10">
-        <h2>10. Children's Online Privacy Protection Act (COPPA)</h2>
-        <p>
-          Haocudai2m is designed for general audience students in secondary, higher, and professional education. The application is not directed at children under the age of 13 (or under 16 in certain European jurisdictions). We do not knowingly collect, solicit, or maintain personal information from children under 13. If you become aware that a child has provided us with personal information, please notify us immediately so we can take steps to remove such credentials.
-        </p>
-      </section>
-
-      <section id="sec-11">
-        <h2>11. Amendments to This Privacy Policy</h2>
-        <p>
-          We may update our Privacy Policy periodically to reflect enhancements to our assistant features, changes in Android OS security requirements, or updates to Google Play Developer policies. When changes are made, the "Effective Date" at the top of this document will be updated. We encourage you to review this page periodically to stay informed about how we safeguard your information.
-        </p>
-      </section>
-
-      <section id="sec-12">
-        <h2>12. Developer Contact Information</h2>
-        <p>
-          If you have questions, feedback, or concerns regarding this Privacy Policy or the security practices of Haocudai2m, please reach out to our development and support team:
-        </p>
-        <ul>
-          <li><strong>Project Name:</strong> Haocudai2m Android Assistant</li>
-          <li><strong>Application ID:</strong> <code>com.haocudai2m.assistant</code></li>
-          <li><strong>Developer Support Email:</strong> <code>haodep00@gmail.com</code></li>
-          <li><strong>Official Repository:</strong> <a href="https://github.com/baonhq1406" target="_blank" style="color: var(--accent);">github.com/baonhq1406</a></li>
-        </ul>
-      </section>
+      <h2>9. Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy or your data, contact the developer:
+      </p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:haodep00@gmail.com">haodep00@gmail.com</a></li>
+        <li><strong>Project Page:</strong> <a href="https://github.com/huynhnhathao0123123s/Haocudai2m-Privacy" target="_blank">github.com/huynhnhathao0123123s/Haocudai2m-Privacy</a></li>
+      </ul>
     </main>
 
     <footer>
-      <p>&copy; 2026 Haocudai2m Assistant. All rights reserved. Compliant with Google Play & Google API Services User Data Policy.</p>
+      <p>&copy; 2026 Haocudai2m Assistant. All rights reserved.</p>
     </footer>
   </div>
 </body>
